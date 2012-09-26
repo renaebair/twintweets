@@ -1,3 +1,5 @@
 Twin Tweets
 
 Compare the happiness rating between two cities, using sentiment analysis. 
+
+Access the application on Heroku: http://twin-tweets.herokuapp.com/
