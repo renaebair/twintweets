@@ -1,4 +1,9 @@
 Twintweets::Application.routes.draw do
+  
+  root :to => 'cities#new'
+  
+  resources :cities, :only => [:new, :create]
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
